@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lm-finetuning-playground"
+version = "0.1.0"
+description = ""
+authors = ["François Weber <frweber@soprema.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+ipykernel = "^6.29.2"
+xmltodict = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
